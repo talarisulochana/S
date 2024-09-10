@@ -1,0 +1,66 @@
+.D{
+    padding: 20px;
+}
+
+.Q{
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+.R{
+    background-color: aquamarine;
+    border-radius: 12px;
+}
+a{
+    float: right;
+
+}
+.R{
+    float: right;
+}
+.V{
+    float: left;
+}
+button{
+    padding: 5px;
+    border-radius: 10px;
+}
+.C{float: left;
+color: red;}
+.L{
+    float: right;
+    translate: 0 0 0;
+    
+}
+img{
+    float: left;
+    padding: -5px;
+}
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #ccc;
+    border-radius: 17px;
+}
+
+.toggle-checkbox {
+    display: none;
+}
+
+.toggle-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 34px;
+    height: 34px;
+    background-color: #fff;
+    border-radius: 17px;
+    transition: left 0.3s ease-in-out;
+    word-spacing: 10px;
+}
+
+.toggle-checkbox:checked+.toggle-slider {
+    left: 26px;
+}
